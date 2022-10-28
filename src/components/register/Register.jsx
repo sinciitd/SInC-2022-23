@@ -11,7 +11,7 @@ export default function Register() {
     return (
         <div className="register">
             <div className="registerIllustration">
-                <img src={il}/>
+                <img src={il} alt=''/>
             </div>
             <div className="registerContents">
                 <div className="registerBox">
@@ -67,7 +67,7 @@ export default function Register() {
                     </div>
                     <div className="registerHeading4 mt-4">
                         <span className="registerText1">Already have an Account? </span>
-                        <a href="#" className="registerText2">Login</a>
+                        <a href="google.com" className="registerText2">Login</a>
                     </div>
                 </div>
             </div>

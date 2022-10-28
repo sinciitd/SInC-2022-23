@@ -48,7 +48,7 @@ export default function Contact() {
                     <div className="contactNums">
                         <div className="contactNumsHeading">
                             <span className="contactNumsHeadingText">For Quick Inquiries</span>
-                            <img src={ph}/>
+                            <img src={ph} alt=''/>
                         </div>
                         <div className="contactNumsList">
                             <div className="contactNumsItem">

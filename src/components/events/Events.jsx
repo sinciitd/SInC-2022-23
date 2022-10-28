@@ -66,7 +66,7 @@ export default function Events() {
                             {({ isActive }) => (
                                 <div className={isActive ? 'card carouselCard carouselCardActive' : 'card carouselCard carouselCardInactive'}>
                                     <div className="card-img-top eventImg">
-                                        <img src={slideContent.linkImg}/>
+                                        <img src={slideContent.linkImg} alt=''/>
                                     </div>
                                     <div className="card-footer">
                                         {isActive ?
