@@ -9,7 +9,7 @@ export default function Contact() {
         <div className="contact">
             <div className="contactHeading">
                 CONTACT US
-                <img src={ul} className='contactHeadingUl'/>
+                <img src={ul} className='contactHeadingUl' alt=''/>
             </div>
             <div className="contactContents">
                 <div className="contactForm">
@@ -44,7 +44,7 @@ export default function Contact() {
                     </form>
                 </div>
                 <div className="contactIllustration">
-                    <img className="contactIllustrationImg" src={il}/>
+                    <img className="contactIllustrationImg" src={il} alt=''/>
                     <div className="contactNums">
                         <div className="contactNumsHeading">
                             <span className="contactNumsHeadingText">For Quick Inquiries</span>
@@ -52,11 +52,11 @@ export default function Contact() {
                         </div>
                         <div className="contactNumsList">
                             <div className="contactNumsItem">
-                                <img src={fl}/>
+                                <img src={fl} alt=''/>
                                 <span className="contactNumsItemText">+91 9876543210</span>
                             </div>
                             <div className="contactNumsItem">
-                                <img src={fl}/>
+                                <img src={fl} alt=''/>
                                 <span className="contactNumsItemText">+91 9876543210</span>
                             </div>
                         </div>
