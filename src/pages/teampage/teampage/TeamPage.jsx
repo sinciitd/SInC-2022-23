@@ -43,8 +43,6 @@ import exeKO5 from '../assets/ko/exe-shikhar.jpg'
 import exeKO6 from '../assets/ko/exe-yogita.jpg'
 // import Header from '../header/Header';
 // import Footer from '../footer/Footer';
-import AboutUs from '../about-us/AboutUs'
-
 
 
 
@@ -57,7 +55,6 @@ import AboutUs from '../about-us/AboutUs'
 const TeamPage = () => {
     return (
         <div>
-            <AboutUs/>
             {/* <Header /> */}
             <div className="teamPageBase">
                 {/* Section Break */}

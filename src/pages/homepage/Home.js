@@ -2,7 +2,7 @@ import React from "react";
 // import Header from './header/Header'
 import Hero from './hero/Hero'
 import Events from './events/Events'
-// import AboutUs from './about-us/AboutUs'
+import AboutUs from './about-us/AboutUs'
 import Contact from './contact/Contact'
 import Register from './register/Register'
 // import Footer from './footer/Footer'
@@ -13,7 +13,7 @@ function Home() {
       {/* <Header/> */}
       <Hero/>
       <Events/>
-      {/* <AboutUs/> */}
+      <AboutUs/>
       <Contact/>
       <Register/>
       {/* <Footer/> */}

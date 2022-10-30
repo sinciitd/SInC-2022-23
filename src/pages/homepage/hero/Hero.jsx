@@ -13,7 +13,7 @@ export default function Hero() {
                     <div>CREATING JOB CREATORS!</div>
                 </div>
                 <button className="heroReadMoreBtn mt-4">
-                    <Link to='/about' className="heroReadMoreBtnText">READ MORE &raquo;</Link>
+                    <Link to='/team' className="heroReadMoreBtnText">READ MORE &raquo;</Link>
                 </button>
             </div>
         </div>
